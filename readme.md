@@ -28,6 +28,9 @@ Install Tattiebogle
 
 Ensure you have the Direct X 9.0+ installed
 
+##Editing Levels
+Edit the levels.lua file to change the levels, this file is relatively self-explanatory and self contained.
+
 ##Credits
 
 A big thank you to [the XBOX controller libraries that I used](https://github.com/josefnpat/dong)
