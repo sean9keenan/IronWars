@@ -1,39 +1,32 @@
-A xbox 360 controller wrapper for love 0.8.0
+A Geometry wars clone written in Lua using LÖVE
 
-##USAGE
+##Gameplay
+There are 12 levels, this game is currently designed to be played with 5 people on XBOX controllers.
+
+Pick up items, where the color of the item corresponds to the color button to press in order to use the item.
+
+If you want to skip a level, hit the key corresponding to that level number, or "z", "x" for levels 11 and 12.
+
+AWSD and arrow keys can be used to control all ships for debugging
+
+##Requirements
+You need to have LÖVE installed, specifically LÖVE 0.8.0 other versions WILL NOT WORK.
+Refer to [the official LÖVE site for instructions on downloading and running a LÖVE game](https://love2d.org/)
+
+In order to use XBOX controllers
 
 ###LINUX
 
-Install xboxdrv and include dong.lua in your project.
+Install xboxdrv
 
 ###OS X
 
-Install Tattiebogle and include dong.lua in your project.
+Install Tattiebogle
 
 ###WINDOWS
 
-Ensure you have the Direct X 9.0+ installed and then include the `*.dll`'s in the `windows-<arch>/` folder next to your love.exe
+Ensure you have the Direct X 9.0+ installed
 
-Note: 64 bit versions of windows will not run 32 bit version dlls; be prepared to distribute to both architectures.
+##Credits
 
-##Testing
-
-This wrapper has been tested with;
-
-* The xbox 360 wireless receiver
-* xbox 360 wireless controller
-
-This wrapper has not been tested with, but will most likely work with;
-
-* xbox 360 wired controller
-* xbox wired controller
-
-*Please report with an issue if these work or do not work for you!*
-
-Tested with;
-
-* Ubuntu 12.04 w/ xboxdrv via the `ppa:grumbel/ppa`
-* Arch Linux w/ xboxdrv via the AUR
-* OS X w/ Tattiebogle
-* Windows Vista Ultimate w/ msft drivers
-
+A big thank you to [the XBOX controller libraries that I used](https://github.com/josefnpat/dong)
