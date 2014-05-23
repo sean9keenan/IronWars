@@ -1,4 +1,4 @@
-A Geometry Wars clone with a slight Ironman flare written in Lua using LÖVE for my 2014 Ditch Day Stack
+A Geometry Wars like game with a slight Ironman flare written in Lua using LÖVE for my 2014 Ditch Day Stack
 
 ##Gameplay
 There are 12 levels, this game is currently designed to be played with 5 people on XBOX controllers.
