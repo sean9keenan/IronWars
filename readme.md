@@ -11,6 +11,7 @@ AWSD and arrow keys can be used to control all ships for debugging
 
 ##Requirements
 You need to have LÖVE installed, specifically LÖVE 0.8.0 other versions WILL NOT WORK.
+
 Refer to [the official LÖVE site for instructions on downloading and running a LÖVE game](https://love2d.org/)
 
 ###In order to use XBOX controllers
